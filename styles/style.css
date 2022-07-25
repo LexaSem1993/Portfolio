@@ -230,7 +230,7 @@ button {
 .works__link {
   position: relative;
   display: block;
-  background-image: url(/img/work1.jpg);
+  background-image: url(../img/work1.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
