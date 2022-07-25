@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,125 @@
     <title>Портфолио</title>
 </head>
 <body>
-    Привет мир!
-    <p>tryy rryutyutyutyutyu</p>
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">Logo</a>
+            <nav class="header__navigation">
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-link header__navigation-link--active">Portfolio</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#works" class="header__navigation-link">Works</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#contacts" class="header__navigation-link">Contants</a>
+                    </li>
+                </ul>
+                <ul class="header__navigation-list header__navigation-social">
+                    <li class="header__navigation-item-soc">
+                        <a href="#" class="header__navigation-link-soc">
+                            <img src="./img/social-vk.png" alt="ВК">
+                        </a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-link-soc">
+                            <img src="./img/social-git.png" alt="Гит">
+                        </a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-link-soc">
+                            <img src="./img/social-instagram.png" alt="Инстограм">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main__container">
+            <div class="main__text">
+                <h1 class="main__title">I am <span class="main__span">ALEXEY<span></h1>
+                <p class="main__info">"Sed ut perspiciatis unde omnis iste    natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <button class="button" href="#">View  WORKS</button>
+            </div>
+            <div class="main__img">
+                <img class="main__img" src="./img/main.jpg" width="350" height="550" alt="ФОТО">
+            </div>
+        </div>
+        <div class="works" id="works">
+            <div class="container works__container">
+                <h2 class="works__title">Works</h2>
+                <ul class="works__list">
+                    <li class="works__item">
+                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                            <h3 class="works__info">Fashion</h3>
+                        </a>
+                    </li>
+                    <li class="works__item">
+                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                            <h3 class="works__info">Fashion</h3>
+                        </a>
+                    </li>
+                    <li class="works__item">
+                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                            <h3 class="works__info">Fashion</h3>
+                        </a>
+                    </li>
+                    <li class="works__item">
+                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                            <h3 class="works__info">Fashion</h3>
+                        </a>
+                    </li>
+                    <li class="works__item">
+                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                            <h3 class="works__info">Fashion</h3>
+                        </a>
+                    </li>
+                    <li class="works__item">
+                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                            <h3 class="works__info">Fashion</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="contacts" id="contacts">
+        <div class="container contacts__container">
+            <h2 class="contacts__title">Contacts</h2>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    TEL:
+                    <a class="contacts__link contacts__tel" href="tel:+78128121212">+12313212313</a> 
+                </li>
+                <li class="contacts__item">
+                    GIT:
+                    <a class="contacts__link contacts__git" target="_blank" href="https://github.com/LexaSem1993">LexaSem1993</a>
+                </li>
+                <li class="contacts__item">
+                    VK:
+                    <a class="contacts__link contacts__vk" target="_blank" href="http://vk.com/id108618210">Алексей Семенов</a>
+                </li>
+            </ul>
+            <ul class="contacts__list-soc">
+                <li class="contacts__item-soc">
+                    <a href="#" class="contacts__link-soc">
+                        <img src="./img/social-vk.png" alt="ВК">
+                    </a>
+                </li>
+                <li class="contacts__item-soc">
+                    <a href="#" class="contacts__link-soc">
+                        <img src="./img/social-git.png" alt="Гит">
+                    </a>
+                </li>
+                <li class="contacts__item-soc">
+                    <a href="#" class="contacts__link-soc">
+                        <img src="./img/social-instagram.png" alt="Инстограм">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
