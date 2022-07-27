@@ -144,6 +144,7 @@ button {
   height: auto;
 }
 .main .button {
+  display: block;
   cursor: pointer;
   font-family: "Poppins";
   font-style: normal;
@@ -154,6 +155,8 @@ button {
   border-radius: 30px;
   padding: 10px 33px;
   margin-top: 98px;
+  max-width: 200px;
+  text-decoration: none;
 }
 .main .button:hover {
   background-color: black;
@@ -230,7 +233,6 @@ button {
 .works__link {
   position: relative;
   display: block;
-  background-image: url(../img/work1.jpg);
   width: 100%;
   height: 250px;
   background-size: cover;
@@ -239,19 +241,20 @@ button {
   background-repeat: no-repeat;
   box-shadow: 0 0 5px 1px var(--yellow);
 }
+.works__item:nth-child(1) .works__link {
+  background-image: url(../img/work1.jpg);
+}
+.works__item:nth-child(2) .works__link {
+  background-image: url(../img/work2.jpg);
+}
+.works__item:nth-child(3) .works__link {
+  background-image: url(../img/work3.jpg);
+}
+.works__item:nth-child(4) .works__link {
+  background-image: url(../img/work4.jpg);
+}
 .works__link:hover {
   box-shadow: 0 0 10px 4px var(--yellow);
-}
-.works__info {
-  font-family: "Poppins";
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 24px;
-  position: absolute;
-  left: 15%;
-  bottom: 40%;
-  color: var(--works);
-  text-transform: uppercase;
 }
 
 @media (max-width: 850px) {

@@ -31,6 +31,7 @@
 
     }
     .button{
+        display: block;
         cursor: pointer;
         font-family: 'Poppins';
         font-style: normal;
@@ -41,6 +42,8 @@
         border-radius: 30px;
         padding: 10px 33px;
         margin-top: 98px;
+        max-width: 200px;
+        text-decoration: none;
     }
     .button:hover{
         background-color: black;
