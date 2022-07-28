@@ -5,7 +5,7 @@
     &__logo{
         text-decoration: none;
         margin-right: 228px;
-        color: var(--yellow);
+        color: var(--dark-shades);
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40px;
@@ -33,7 +33,7 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 30px;
-        color: var(--yellow);
+        color: var(--dark-shades);
         padding: 16px 9px;
         text-decoration: none;
     }
@@ -41,10 +41,10 @@
         display: block;
     }
     &__navigation-link--active{
-        background-color: var(--orange);
+        background-color: var(--main-brand-color);
     }
     &__navigation-link:hover{
-        background-color: var(--orange);
+        background-color: var(--main-brand-color);
         transition: background-color .3s ease-in-out;
     }
 }

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --yellow:#F3E93D;
-  --orange:#E74800;
-  --works:#1B1B1B;
+  --dark-shades:#42424A;
+  --main-brand-color:#E0A94D;
+  --main-brand-color:#E0A94D;
 }
 
 * {
@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #F3F0ED;
 }
 
 ul {
@@ -37,7 +37,7 @@ button {
 .header__logo {
   text-decoration: none;
   margin-right: 228px;
-  color: var(--yellow);
+  color: var(--dark-shades);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -64,7 +64,7 @@ button {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  color: var(--yellow);
+  color: var(--dark-shades);
   padding: 16px 9px;
   text-decoration: none;
 }
@@ -72,10 +72,10 @@ button {
   display: block;
 }
 .header__navigation-link--active {
-  background-color: var(--orange);
+  background-color: var(--main-brand-color);
 }
 .header__navigation-link:hover {
-  background-color: var(--orange);
+  background-color: var(--main-brand-color);
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -112,7 +112,7 @@ button {
   }
 }
 .main {
-  margin-top: 168px;
+  margin-top: 50px;
 }
 .main__text {
   max-width: 470px;
@@ -124,11 +124,11 @@ button {
   font-weight: 700;
   font-size: 64px;
   line-height: 50px;
-  color: var(--yellow);
+  color: var(--dark-shades);
   margin-top: 237px;
 }
 .main__span {
-  color: var(--orange);
+  color: var(--main-brand-color);
 }
 .main__info {
   margin-top: 73px;
@@ -137,7 +137,7 @@ button {
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
-  color: var(--yellow);
+  color: var(--dark-shades);
 }
 .main__img {
   width: 100%;
@@ -150,8 +150,8 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  background-color: var(--orange);
-  color: var(--yellow);
+  background-color: var(--main-brand-color);
+  color: var(--dark-shades);
   border-radius: 30px;
   padding: 10px 33px;
   margin-top: 98px;
@@ -159,7 +159,7 @@ button {
   text-decoration: none;
 }
 .main .button:hover {
-  background-color: black;
+  background-color: var(--ma);
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -205,10 +205,13 @@ button {
     line-height: 16px;
     margin-top: 30px;
   }
+  .main .button {
+    margin: 50px auto;
+  }
 }
 .works {
-  background-color: var(--works);
-  margin-top: 182px;
+  background-color: var(--main-brand-color);
+  margin-top: 65px;
 }
 .works__container {
   flex-direction: column;
@@ -221,10 +224,10 @@ button {
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
-  color: var(--yellow);
+  color: var(--dark-shades);
 }
 .works__list {
-  margin: 77px auto;
+  margin: 75px auto;
   display: grid;
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 250px 250px;
@@ -239,7 +242,7 @@ button {
   background-position: center;
   border-radius: 10px;
   background-repeat: no-repeat;
-  box-shadow: 0 0 5px 1px var(--yellow);
+  box-shadow: 0 0 5px 1px var(--dark-shades);
 }
 .works__item:nth-child(1) .works__link {
   background-image: url(../img/work1.jpg);
@@ -254,7 +257,7 @@ button {
   background-image: url(../img/work4.jpg);
 }
 .works__link:hover {
-  box-shadow: 0 0 10px 4px var(--yellow);
+  box-shadow: 0 0 10px 4px var(--dark-shades);
 }
 
 @media (max-width: 850px) {
@@ -272,7 +275,7 @@ button {
   }
 }
 .contacts__container {
-  margin: 50px auto;
+  margin: 40px auto;
   align-items: center;
 }
 .contacts__title {
@@ -281,7 +284,7 @@ button {
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
-  color: var(--yellow);
+  color: var(--dark-shades);
 }
 .contacts__list {
   margin-left: 150px;
@@ -293,7 +296,7 @@ button {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: var(--orange);
+  color: var(--main-brand-color);
   text-decoration: none;
   width: 100%;
 }
@@ -306,7 +309,7 @@ button {
   line-height: 24px;
   display: block;
   text-decoration: none;
-  color: var(--yellow);
+  color: var(--dark-shades);
 }
 .contacts__list-soc {
   margin-left: auto;

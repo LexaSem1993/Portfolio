@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-:root{
-    --yellow:#F3E93D;
-    --orange:#E74800;
-    --works:#1B1B1B;  
-}
+:root {
+    --dark-shades:#42424A;
+    --main-brand-color:#E0A94D;
+    --main-brand-color:#E0A94D;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     padding: 0 15px;
 }
 body{
-    background-color: black;
+    background-color: #F3F0ED;
 }
 ul{
     list-style: none;
