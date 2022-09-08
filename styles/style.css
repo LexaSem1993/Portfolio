@@ -255,6 +255,9 @@ button {
 .works__item:nth-child(4) .works__link {
   background-image: url(../img/work4.jpg);
 }
+.works__item:nth-child(5) .works__link {
+  background-image: url(../img/work5.jpg);
+}
 .works__link:hover {
   box-shadow: 0 0 10px 4px var(--dark-shades);
 }

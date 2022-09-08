@@ -45,6 +45,9 @@
     &__item:nth-child(4) &__link{
         background-image: url(../img/work4.jpg);
     }
+    &__item:nth-child(5) &__link{
+        background-image: url(../img/work5.jpg);
+    }
     &__link:hover{
         box-shadow: 0 0 10px 4px var(--dark-shades);
     }
