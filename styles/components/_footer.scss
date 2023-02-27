@@ -12,8 +12,11 @@
         color: var(--dark-shades);
     }
     &__list{
+        display: flex;
+        flex-direction: column;
         margin-left: 150px;
         justify-content: space-between;
+        gap: 10px;
     }
     &__item{
         display: flex;
@@ -35,6 +38,10 @@
         display: block;
         text-decoration: none;
         color:var(--dark-shades);
+    }
+    &__link:hover{
+        color:var(--main-brand-color);
+        transition: color .3s ease-in-out;
     }
     &__list-soc{
         margin-left: auto;

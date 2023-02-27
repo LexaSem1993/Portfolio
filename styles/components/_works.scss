@@ -16,22 +16,22 @@
     }
 
     &__list{
-        margin: 75px auto;
+        margin: 60px auto;
         display: grid;
-        grid-template-columns: 250px 250px 250px;
-        grid-template-rows: 250px 250px;
+        grid-template-columns: 600px;
         gap: 20px;
     }
     &__link{
         position: relative;
         display: block;
         width: 100%;
-        height: 250px;
+        height: 600px;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
         background-repeat: no-repeat;
         box-shadow: 0 0 5px 1px var(--dark-shades);
+        transition: box-shadow .3s ease-in-out;
     }
     &__item:nth-child(1) &__link{
         background-image: url(../img/work1.jpg);
