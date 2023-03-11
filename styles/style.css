@@ -173,12 +173,13 @@ button {
   line-height: 26px;
   color: var(--dark-shades);
   text-indent: 30px;
+  text-align: justify;
 }
 .main__img {
   width: 100%;
   height: auto;
 }
-.main .button {
+.main__button {
   display: block;
   cursor: pointer;
   font-family: "Poppins";
@@ -193,35 +194,43 @@ button {
   max-width: 187px;
   text-decoration: none;
 }
-.main .button:hover {
+.main__button:hover {
   background-color: var(--ma);
   transition: background-color 0.3s ease-in-out;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1048px) {
   .main {
     margin-top: 20px;
-  }
-  .main__container {
-    flex-direction: column;
-    margin: 0 auto;
   }
   .main__title {
     margin-top: 50px;
   }
   .main__text {
-    max-width: none;
+    max-width: 400px;
     text-align: center;
-    margin-right: 0;
+    margin-right: 30px;
   }
   .main .button {
     margin-top: 50px;
   }
-  .main__img {
-    margin-top: 30px;
-  }
   .main .works {
     margin-top: 10px;
+  }
+  .main__img {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+}
+@media (max-width: 796px) {
+  .main__container {
+    flex-direction: column;
+  }
+  .main__text {
+    margin: 0 auto;
+  }
+  .main__button {
+    margin: 20px auto;
   }
 }
 @media (max-width: 480px) {
@@ -236,8 +245,8 @@ button {
     margin-top: 10px;
   }
   .main__info {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 25px;
     margin-top: 30px;
   }
   .main .button {
@@ -264,14 +273,14 @@ button {
 .works__list {
   margin: 60px auto;
   display: grid;
-  grid-template-columns: 600px;
+  grid-template-columns: 300px 300px 300px;
   gap: 20px;
 }
 .works__link {
   position: relative;
   display: block;
   width: 100%;
-  height: 600px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -298,18 +307,21 @@ button {
   box-shadow: 0 0 10px 4px var(--dark-shades);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 985px) {
+  .works__link {
+    height: 290px;
+  }
   .works__list {
     display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 290px 290px;
+    grid-template-rows: 290px 290px 290px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 630px) {
   .works__list {
     display: grid;
-    grid-template-columns: 250px;
-    grid-template-rows: 250px 250px 250px 250px 250px 250px;
+    grid-template-columns: 290px;
+    grid-template-rows: 290px 290px 290px 290px 290px;
   }
 }
 .contacts__container {
