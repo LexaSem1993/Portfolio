@@ -3,7 +3,7 @@
         align-items: center;
     }
     &__logo{
-        font-family: 'Poppins';
+        font-family: 'Poppins',sans-serif;
         text-decoration: none;
         margin-right: 228px;
         color: var(--dark-shades);
@@ -29,7 +29,7 @@
     }
     &__navigation-link{
         display: block;
-        font-family: 'Poppins';
+        font-family: 'Poppins',sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -52,7 +52,10 @@
 @media (max-width:850px) {
     .header{
         &__logo{
-            margin-right: 100px;
+            margin-right: 150px;
+        }
+        &__navigation-list{
+            display: none;
         }
     }
 }

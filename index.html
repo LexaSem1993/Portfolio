@@ -7,6 +7,7 @@
     <meta name="description" content="Портфолио Алексея Семенова">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>Портфолио Алексей</title>
 </head>
 <body>
@@ -36,19 +37,25 @@
                             <img src="./img/social-git.png" alt="Гит">
                         </a>
                     </li>
-                    <li class="header__navigation-item">
-                        <a href="https://instagram" target="_blank" class="header__navigation-link-soc">
-                            <img src="./img/social-instagram.png" alt="Инстограм">
-                        </a>
-                    </li>
                 </ul>
             </nav>
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul class="menubox">
+                        <li><a class="menu-item" href="https://github.com/LexaSem1993" target="_blank">Github</a></li>
+                        <li><a class="menu-item" href="https://vk.com/id108618210" target="_blank">VK</a></li>
+                        <li><a class="menu-item" href="tel::+79960903402">+7-996-090-34-02</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="main">
         <div class="container main__container">
             <div class="main__text">
-                <h1 class="main__title">I am <span class="main__span">ALEXEY<span></h1>
+                <h1 class="main__title">I am <span class="main__span">ALEXEY</span></h1>
                 <h2 class="main__subtitle"> - About me -</h2>
                 <p class="main__info"> I&rsquo;m beginning maker. With little experience. I&rsquo;ve been doing layout for over a&nbsp;year now. I&nbsp;use different technologies. I&nbsp;want to&nbsp;change my&nbsp;field of&nbsp;activity and work in&nbsp;IT. My&nbsp;works you can see bellow by&nbsp;clicking on&nbsp;the button.</p>
                 <a class="main__button" href="#works">View Works</a>
@@ -60,33 +67,32 @@
         <div class="works" id="works">
             <div class="container works__container">
                 <h2 class="works__title">Works</h2>
-                <ul class="works__list">
-                    <li class="works__item">
-                        <a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
+                <div class="swiper mySwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Fashion/" target="_blank" class="works__link">
                             
-                        </a>
-                    </li>
-                    <li class="works__item">
-                        <a href="https://lexasem1993.github.io/Sedona/" target="_blank" class="works__link">
+                        </a></li>
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Sedona/" target="_blank" class="works__link">
                             
-                        </a>
-                    </li>
-                    <li class="works__item">
-                        <a href="https://lexasem1993.github.io/Crappo/" target="_blank" class="works__link">
+                        </a></li>
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Crappo/" target="_blank" class="works__link">
                             
-                        </a>
-                    </li>
-                    <li class="works__item">
-                        <a href="https://lexasem1993.github.io/Blog/" target="_blank" class="works__link">
+                        </a></li>
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Blog/" target="_blank" class="works__link">
                             
-                        </a>
-                    </li>
-                    <li class="works__item">
-                        <a href="https://lexasem1993.github.io/Flowers/dist/" target="_blank" class="works__link">
-                        </a>
-                    </li>
-                    
-                </ul>
+                        </a></li>
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Flowers/dist/" target="_blank" class="works__link">
+                        </a></li>
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Inno/dist/" target="_blank" class="works__link">
+                        </a></li>
+                        <li class="swiper-slide works__item"><a href="https://lexasem1993.github.io/Atmosfera/" target="_blank" class="works__link"></a></li>
+                        <li class="swiper-slide works__item"><a href="https://github.com/LexaSem1993/ToDoList" target="_blank" class="works__link">ToDoList</a></li>
+                        <li class="swiper-slide works__item"><a href="https://github.com/LexaSem1993/DropDown-List" target="_blank" class="works__link">DropDown List</a></li>
+                        <li class="swiper-slide works__item"><a href="https://github.com/LexaSem1993/pet-project" target="_blank" class="works__link">pet-project</a></li>
+                    </ul>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </div>
     </main>
@@ -118,13 +124,10 @@
                         <img src="./img/social-git.png" alt="Гит">
                     </a>
                 </li>
-                <li class="contacts__item-soc">
-                    <a href="http://instagram" class="contacts__link-soc">
-                        <img src="./img/social-instagram.png" alt="Инстограм">
-                    </a>
-                </li>
             </ul>
         </div>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
 </html>
